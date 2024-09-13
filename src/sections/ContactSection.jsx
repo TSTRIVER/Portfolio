@@ -1,9 +1,8 @@
 import React from "react";
-import { Section } from "../components/Interface";
 
 const ContactSection = () => {
     return (
-      <Section>
+      <>
         <h2 className="text-5xl font-bold">Contact me</h2>
         <div className="mt-8 p-8 rounded-md bg-white w-96 max-w-full">
           <form>
@@ -44,7 +43,7 @@ const ContactSection = () => {
             </button>
           </form>
         </div>
-      </Section>
+      </>
     );
   };
   

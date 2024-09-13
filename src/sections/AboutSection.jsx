@@ -1,11 +1,10 @@
 import React from "react";
-import { Section } from "../components/Interface";
 import { motion } from "framer-motion";
 
 const AboutSection = (props) => {
   const { setSection } = props;
   return (
-    <Section>
+    <>
       <h1 className="text-6xl font-extrabold leading-snug">
         Hi, I'm
         <br />
@@ -49,7 +48,7 @@ const AboutSection = (props) => {
       >
         Contact me
       </motion.button>
-    </Section>
+    </>
   );
 };
 

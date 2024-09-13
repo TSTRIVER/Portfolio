@@ -1,5 +1,4 @@
 import React from "react";
-import { Section } from "../components/Interface";
 import { motion } from "framer-motion";
 
 const skills = [
@@ -41,7 +40,7 @@ const languages = [
 
 const SkillsSection = () => {
   return (
-    <Section>
+    <>
       <motion.div whileInView={"visible"}>
         <h2 className="text-5xl font-bold text-bgColor1">Skills</h2>
         <div className=" mt-8 space-y-4">
@@ -111,7 +110,7 @@ const SkillsSection = () => {
           </div>
         </div>
       </motion.div>
-    </Section>
+    </>
   );
 };
 

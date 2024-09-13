@@ -10,7 +10,7 @@ import { SkeletonUtils } from "three-stdlib";
 import { useControls } from "leva";
 
 export function Avatar(props) {
-  const { animation, menuOpened} = props;
+  const { animation, menuOpened } = props;
   const { headFollow, cursorFollow, wireframe } = useControls({
     headFollow: false,
     cursorFollow: false,
@@ -112,3 +112,6 @@ export function Avatar(props) {
 }
 
 useGLTF.preload("models/model.glb");
+useFBX.preload("animations/Typing.fbx");
+useFBX.preload("animations/Standing Idle.fbx");
+useFBX.preload("animations/Falling Idle.fbx");
